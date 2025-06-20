@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Game 🐍</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐍 SNAKE GAME</h1>
+  <div id="game-area"></div>
+  <div class="info">
+    <p>🎯 Score: <span id="score">0</span></p>
+    <p>🏆 High Score: <span id="high-score">0</span></p>
+  </div>
+  <button onclick="startGame()">▶️ Start Game</button>
+
+  <audio id="eatSound" src="https://assets.mixkit.co/sfx/preview/mixkit-positive-interface-beep-221.wav"></audio>
+  <audio id="gameOverSound" src="https://assets.mixkit.co/sfx/preview/mixkit-player-losing-or-failing-2042.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
